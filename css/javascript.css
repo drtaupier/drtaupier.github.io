@@ -1,0 +1,17 @@
+@import "format.css";
+
+/******* Article ******/
+article h2{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 20px 10px;
+
+}
+
+article p{
+    text-align: justify;
+}
+
+article>img{
+    width: 500px;
+}

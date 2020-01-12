@@ -1,0 +1,19 @@
+@import "style.css";
+@import "principal.css";
+@import "image.css";
+
+.container{
+        margin:auto;
+        display: grid;
+        /* grid-gap: 10px; */
+        justify-items: center; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "header header"
+                              "nav nav"
+                              "anuncio anuncio"
+                              "contenido contenido"
+                              "footer footer";
+    }
+
+

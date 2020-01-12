@@ -1,0 +1,11 @@
+.contenedor-info:nth-child(1)>.imagen{
+    background-image: url('../pictures/imag1.jpg');
+}
+
+.contenedor-info:nth-child(2)>.imagen{
+    background-image: url('../pictures/imagen2.jpg');
+}
+
+.contenedor-info:nth-child(3)>.imagen{
+    background-image: url('../pictures/javascript.jpg');
+}
