@@ -1,11 +1,21 @@
-.contenedor-info:nth-child(1)>.imagen{
-    background-image: url('../pictures/imag1.jpg');
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 30px;
 }
 
-.contenedor-info:nth-child(2)>.imagen{
-    background-image: url('../pictures/imagen2.jpg');
+figure img{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.contenedor-info:nth-child(3)>.imagen{
-    background-image: url('../pictures/javascript.jpg');
+figure figcaption{
+    margin-top: -20px;
+    font-size: 14px;
 }
